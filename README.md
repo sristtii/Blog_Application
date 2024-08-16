@@ -20,7 +20,6 @@ A blogging platform built with Django, featuring user authentication, profile ma
   - **Create Blogs:** Users can create new blog posts.
   - **Edit Blogs:** Edit existing blog posts.
   - **Delete Blogs:** Remove blog posts.
-  - **Commenting:** Users can comment on blog posts.
 
 - **Static File Handling:**
   
@@ -57,11 +56,7 @@ To get started with the Django Blog Application, follow these steps:
     ```
 6. **Access the Application:**
     Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
-
-## Deployment Status
-
-The Django Blog Application can be run locally as described above. I am currently addressing a deployment issue with the Vercel app. Rest assured,I am working diligently to resolve the issue and will deploy the application successfully once the problem is fixed. I appreciate your patience and understanding.
-  
+ 
 ## Contributing
 
 Feel free to make changes to the code and contribute to the project! Modifications are welcome and can help improve the application.Thank you!
