@@ -60,7 +60,7 @@ To get started with the Django Blog Application, follow these steps:
 
 ## Deployment Status
 
-The Django Blog Application can be run locally as described above. We are currently addressing a deployment issue with the Vercel app. Rest assured, we are working diligently to resolve the issue and will deploy the application successfully once the problem is fixed. We appreciate your patience and understanding.
+The Django Blog Application can be run locally as described above. I am currently addressing a deployment issue with the Vercel app. Rest assured,I am working diligently to resolve the issue and will deploy the application successfully once the problem is fixed. I appreciate your patience and understanding.
   
 ## Contributing
 
