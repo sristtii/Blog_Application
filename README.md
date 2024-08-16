@@ -30,8 +30,8 @@ To get started with the Django Blog Application, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/sristtii/<repository-name>.git
-    cd <repository-name>
+    git clone https://github.com/sristtii/<Blog_Application>.git
+    cd <Blog_Application>
     ```
 
 2. **Create and Activate a Virtual Environment:**
