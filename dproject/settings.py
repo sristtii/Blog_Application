@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-nmnx1-*7#mmk+p5s(-!9h%$8v5!!+*o4k&n&uq3h*takfs7yfh
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['.vercel.app']
+#['.vercel.app','localhost','127.0.0.1' ]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,13 +77,23 @@ WSGI_APPLICATION = 'dproject.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
-DATABASES = {
+'''DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        dj_database_url.config(default='postgresql://postgres:AanGwjRzWFlyDtjzuBUSyOwyUHWTqaGj@viaduct.proxy.rlwy.net:21956/railway'),
+        'NAME':'railway',
+        'USER':'postgres',
+        'PASSWORD':'AanGwjRzWFlyDtjzuBUSyOwyUHWTqaGj',
+        'HOST':'postgres.railway.internal',
+        'PORT':'5432'
     }
-}
+}'''
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+#}
 
 
 # Password validation
@@ -121,10 +131,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles_build','static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
