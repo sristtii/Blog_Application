@@ -14,7 +14,7 @@
         "config": { "distDir": "staticfiles_build" }
       }
     ],
-    "buildCommand": "pip install -r requirements.txt",
+    "buildCommand": "./build_files.sh",
     "routes": [
       {
         "src": "/static/(.*)",
