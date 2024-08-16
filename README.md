@@ -2,7 +2,7 @@
 
 ## Overview
 
-A blogging platform built with Django, featuring user authentication, profile management, and dynamic content creation. This project allows users to register, log in, manage their profiles, create and edit blogs, and leave comments.
+A blogging platform built with Django, featuring user authentication, profile management, and dynamic content creation. This project allows users to register, log in, manage their profiles, create and edit blogs.
 
 ## Features
 
@@ -55,10 +55,12 @@ To get started with the Django Blog Application, follow these steps:
     ```bash
     python manage.py runserver
     ```
-## Contributing
-
-Feel free to make changes to the code and contribute to the project! Modifications are welcome and can help improve the application. If you have any suggestions or improvements, please submit a pull request or open an issue.
-
-
 6. **Access the Application:**
     Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+    
+## Contributing
+
+Feel free to make changes to the code and contribute to the project! Modifications are welcome and can help improve the application.Thank you!
+
+
+
